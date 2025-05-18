@@ -17,6 +17,6 @@ public abstract class Zwierze {
     public abstract String wydajDzwiek();
     public abstract String poruszajSie();
     public void wyswietlInformacje(){
-        System.out.println("nazwa:"+ nazwa + "wiek: " + wiek);
+        System.out.println("Zwierze: "+ nazwa + "wiek: " + wiek);
     }
 }
