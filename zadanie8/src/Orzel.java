@@ -5,17 +5,14 @@ public class Orzel extends Zwierze {
         super(nazwa, wiek);
         this.rozpiętośćSkrzydeł = rozpiętośćSkrzydeł;
     }
-
     @Override
     public String wydajDzwiek() {
         return "Skrzeczenie!";
     }
-
     @Override
     public String poruszajSie() {
         return "Lata wysoko nad górami";
     }
-
     public void szybuj() {
         System.out.println(getNazwa() + " szybuje w powietrzu.");
     }

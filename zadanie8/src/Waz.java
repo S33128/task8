@@ -5,17 +5,14 @@ public class Waz extends Zwierze {
         super(nazwa, wiek);
         this.jadowity = jadowity;
     }
-
     @Override
     public String wydajDzwiek() {
         return "Syss!";
     }
-
     @Override
     public String poruszajSie() {
         return "Pełznie po ziemi";
     }
-
     public void ukas() {
         if (jadowity) {
             System.out.println(getNazwa() + " kąsa i wstrzykuje jad!");
